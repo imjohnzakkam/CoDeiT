@@ -1,6 +1,6 @@
 # CoDeiT: Contrastive Data-efficient Transformers for Deepfake Detection
 
-[![Paper]([https://img.shields.io/badge/paper-pdf-red](https://drive.google.com/file/d/1B8xb3C8t4y0FgPLDhflEPJqReOCwYFXb/view))](paper_link)
+[Link to Paper](https://drive.google.com/file/d/1B8xb3C8t4y0FgPLDhflEPJqReOCwYFXb/view)
 
 Official implementation of "CoDeiT: Contrastive Data-efficient Transformers for Deepfake Detection"
 
