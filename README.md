@@ -39,7 +39,7 @@ albumentations
 
 ```bash
 # Clone the repository
-git clone https://github.com/username/CoDeiT.git
+git clone https://github.com/imjohnzakkam/CoDeiT.git
 cd CoDeiT
 
 # Create a virtual environment
@@ -49,43 +49,6 @@ venv\Scripts\activate     # Windows
 
 # Install dependencies
 pip install -r requirements.txt
-```
-
-## Usage
-
-### Training
-
-```python
-from codeit import CoDeiTModel, CoDeiTTrainer
-
-# Initialize model
-model = CoDeiTModel(variant='xl')  # Options: 's', 'l', 'xl'
-
-# Initialize trainer
-trainer = CoDeiTTrainer(
-    model=model,
-    train_dataset=train_dataset,
-    val_dataset=val_dataset,
-    batch_size=32,
-    num_epochs=100
-)
-
-# Start training
-trainer.train()
-```
-
-### Inference
-
-```python
-import torch
-from codeit import CoDeiTModel
-
-# Load pretrained model
-model = CoDeiTModel.from_pretrained('path/to/checkpoint')
-
-# Perform inference
-image = load_image('path/to/image')
-prediction = model.predict(image)
 ```
 
 ## Datasets
@@ -123,16 +86,6 @@ The model has been evaluated on the following datasets:
 
 We welcome contributions to improve CoDeiT! Please feel free to submit issues, fork the repository and create pull requests for any improvements.
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Acknowledgments
 
 - Indian Institute of Information Technology Design and Manufacturing, Kancheepuram
@@ -143,5 +96,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Contact
 
 John Zakkam - ced18i059@iiitdm.ac.in
-
-Project Link: [https://github.com/username/CoDeiT](https://github.com/username/CoDeiT)
+or please create an issue / PR
